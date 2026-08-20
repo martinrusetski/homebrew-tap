@@ -4,18 +4,18 @@ Homebrew casks for Martin Rusetski's macOS apps.
 
 ## Installation
 
-Add the tap once using the shorter `mrtnby/tap` alias:
+Add the tap once:
 
 ```sh
-brew tap mrtnby/tap https://github.com/martinrusetski/homebrew-tap
-brew trust mrtnby/tap
+brew tap martinrusetski/tap
+brew trust martinrusetski/tap
 ```
 
 Then install either app:
 
 ```sh
-brew install --cask mrtnby/tap/rom-shortcut-maker
-brew install --cask mrtnby/tap/true-tone-manager
+brew install --cask martinrusetski/tap/rom-shortcut-maker
+brew install --cask martinrusetski/tap/true-tone-manager
 ```
 
 ## Available apps
