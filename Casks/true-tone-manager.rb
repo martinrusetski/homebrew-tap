@@ -11,8 +11,8 @@ cask "true-tone-manager" do
 
   app "TrueTone Manager.app"
 
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/TrueTone Manager.app"]
+  postflight_steps do
+    run "/usr/bin/xattr", args: ["-cr", "{{appdir}}/TrueTone Manager.app"]
   end
 
   zap trash: "~/Library/Application Support/TrueToneManager"
