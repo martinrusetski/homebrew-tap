@@ -1,8 +1,8 @@
 cask "true-tone-manager" do
-  version "0.5.2"
-  sha256 "e133583c0d32151fa03de91ef231bd804c98a0962a44065679777dd89ca5db19"
+  version "0.5.3"
+  sha256 "43250329a588733d2594ad228d54ad85806689e7555bba042ae76faf15e4ce25"
 
-  url "https://github.com/martinrusetski/true-tone-manager/releases/download/v#{version}/TrueToneManager-v#{version}.dmg"
+  url "https://github.com/martinrusetski/true-tone-manager/releases/download/v0.5.3/TrueToneManager-v0.5.3.dmg"
   name "TrueTone Manager"
   desc "Automatically toggle True Tone per application"
   homepage "https://github.com/martinrusetski/true-tone-manager"
